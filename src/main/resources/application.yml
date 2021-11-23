@@ -7,8 +7,8 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    serviceUrl:
-      defaultZone: ${EUREKA_DEFAULT_ZONE:http://${eureka.instance.hostname}:${server.port}/eureka/}
+    service-url:
+      default-zone: ${EUREKA_DEFAULT_ZONE:http://${eureka.instance.hostname}:${server.port}/eureka/}
 spring:
   application:
     name: discoveryservice
