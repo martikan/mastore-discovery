@@ -10,7 +10,7 @@ on:
 
 jobs:
 
-  gradle:
+  test:
     name: test
     runs-on: ubuntu-latest
     steps:
