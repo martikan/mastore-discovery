@@ -16,6 +16,6 @@ RUN mkdir /app
 
 COPY --from=build /home/gradle/src/build/libs/*.jar /usr/local/lib/discoveryservice.jar
 
-EXPOSE 8081
+EXPOSE 8761
 
 ENTRYPOINT ["java","-jar","/usr/local/lib/discoveryservice.jar"]
